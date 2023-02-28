@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Su</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-position: center;
+        background-size: cover;
+      }
+
+      .container {
+        height: 100vh;
+        width: 100%;
+        background-image: url(water3.jpg);
+      }
+      .navbar {
+        height: 10%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.625);
+      }
+
+      .navbar li {
+        display: inline-block;
+        margin: 0 80px;
+        list-style: none;
+        padding: 2px 10px;
+        border-radius: 2px;
+        transition: all, 0.3s;
+      }
+      .navbar li:hover {
+        background-color: rgba(0, 0, 0, 0.625);
+      }
+
+      .navbar a {
+        text-decoration: none;
+        color: darkorange;
+        font-size: 20px;
+      }
+
+      h1 {
+        font-family: monospace;
+      }
+
+      .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 80%;
+        width: 50%;
+        margin: auto;
+        background-color: rgba(245, 245, 220, 0.862);
+      }
+
+      p {
+        font-size: large;
+        line-height: 2em;
+        margin: 0 100px;
+        text-align: justify;
+      }
+
+      h1::selection,
+      p::selection {
+        background-color: black;
+        color: whitesmoke;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <ul>
+          <li><a href="index.html">Anasayfa</a></li>
+          <li><a href="#">Su İçmenin Önemi</a></li>
+          <li><a href="hakkımda.html">Hakkımda</a></li>
+        </ul>
+      </div>
+
+      <div class="content">
+        <h1>Su içmek Neden Önemli??</h1>
+
+        <p>
+          Gün boyunca yeterli miktarda su içmek, sağlıklı kalmamız ve
+          vücudumuzdaki sistemlerin düzgün işleyebilmesi için son derece önemli.
+          Çünkü vücudumuzun ortalama yüzde 60'ı sudan oluşuyor. Vücudumuz gün
+          boyunca idrar, ter ve nefes alışverişiyle sürekli su kaybediyor. Bu
+          nedenle vücudumuzun su dengesini koruyabilmek için her gün içecek ve
+          yiyeceklerden yeterli miktarda su almamız gerekiyor. Ne kadar suya
+          ihtiyacımız olduğu ise birçok faktöre bağlı ve bu yüzden kişiden
+          kişiye göre değişiklik gösteriyor.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

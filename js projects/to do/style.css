@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-position: center;
+  background-size: cover;
+  font-family: monospace;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-image: url(bg1.jpg);
+}
+h1 {
+  background-color: rgba(255, 206, 114, 0.742);
+  border-radius: 3px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.box {
+  padding: 10px;
+  width: 410px;
+}
+
+.addBox {
+  height: 100px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 206, 114, 0.925),
+    beige
+  );
+  border-radius: 10px 10px 0 0;
+}
+
+.listBox {
+  height: 300px;
+  background-image: linear-gradient(to top, rgba(255, 206, 114, 0.925), beige);
+  border-radius: 0 0 10px 10px;
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(247, 174, 71);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e98112;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #cd4b05;
+}
+
+input {
+  border-radius: 5px;
+  margin-top: 10px;
+  height: 30px;
+  width: 290px;
+}
+button {
+  border-radius: 5px;
+  height: 30px;
+  width: 80px;
+}
+
+p {
+  height: 25px;
+  text-align: center;
+  margin-top: 10px;
+  font-size: large;
+}
+
+ul {
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+li {
+  font-size: x-large;
+  list-style: none;
+  text-align: center;
+}
+
+.infoP {
+  padding: 5px;
+  /*background-image: linear-gradient(to right, peru, teal); */
+  background-color: rgba(255, 206, 114, 0.742);
+  border-radius: 5px;
+}
+
+::placeholder {
+  text-indent: 1em;
+}
+
+::selection {
+  visibility: hidden;
+}
+
+#addedP,
+#deletedP {
+  border-radius: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}

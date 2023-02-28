@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yapılacaklar</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>-Görev Ekle-</h1>
+      <div class="box addBox">
+        <form id="form">
+          <input
+            type="text"
+            id="addInput"
+            placeholder="Yeni bir görev ekleyin.."
+          />
+          <button type="submit" id="addButton">Ekle</button>
+        </form>
+        <div id="addedP"></div>
+      </div>
+      <div class="box listBox">
+        <form id="form2">
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="Bir görev arayın.."
+          />
+          <button id="deleteButton">Tümünü Sil</button>
+        </form>
+        <div id="deletedP"></div>
+        <ul id="list">
+
+        </ul>
+      </div>
+      <p class="infoP">Yapılan görevin üzerine bir kez tıklayın.</p>
+      <p class="infoP">Silinecek görevin üzerine iki kez tıklayın.</p>
+
+      <p class="infoP"><a href="https://github.com/taylanbayrakli">GitHub → Taylan Bayraklı®</a></p>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

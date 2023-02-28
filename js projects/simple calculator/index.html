@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="calculator">
+        <div class="box">
+          <div class="log">
+            <!-- İNPUTLAR -->
+            <h1>Easy Calculator</h1>
+            <input type="number" id="firstInput" placeholder="First Number" />
+            <br />
+            <input type="number" id="secondInput" placeholder="Second Number" />
+          </div>
+          <!-- BUTONLAR -->
+          <div class="buttons">
+            <button id="add">+</button>
+            <button id="sub">-</button>
+            <button id="mul">*</button>
+            <button id="div">/</button>
+          </div>
+          <!-- DİSPLAY -->
+          <div class="display">
+            <input type="number" placeholder="Result" readonly id="result" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
